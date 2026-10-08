@@ -1,2 +1,18 @@
 # xbtuteforce
-!! EDUCATIONAL PURPOSE ONLY !! x (formaly twitter) account bruteforce tool via x api
+!! EDUCATIONAL PURPOSE ONLY !!
+
+x (formaly twitter) account bruteforce tool via x api
+
+트위터 핸들 입력 후 시도할 비밀번호 자릿수 입력하면 됨
+
+# 주의사항
+이 레포는 교육 목적에 있음
+
+애초에 3자릿수도 80만개 조합이 나오는데 트위터의 최소 비밀번호 갯수는 10자 이상임
+
+현재 어떤 방식으로 트위터api의 캡챠를 우회할 수 있고 그걸 통해서 어떤 방식으로 우리가 운영중인 사이트들을 보호해야하는지에 대한 교육 목적에 있음
+
+# 트러블슈팅
+좆된거같다면 워커 수를 줄여서 시도해보자
+
+코드 103줄 아래에 있는 `num_workers = 20`의 수를 줄여보자
