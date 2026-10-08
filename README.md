@@ -24,3 +24,5 @@ x (formaly twitter) account bruteforce tool via x api
 좆된거같다면 워커 수를 줄여서 시도해보자
 
 코드 103줄 아래에 있는 `num_workers = 20`의 수를 줄여보자
+
+++ 429에 대한 처리 매커니즘이 없기 때문에 알아서 유도리있게 잘 시도해보는게 좋을것
